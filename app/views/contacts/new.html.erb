@@ -1,52 +1,4 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
-<html>
-<head>
-<title>Scrutiny a Education Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
-<!--mobile apps-->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Scrutiny Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-  Smartphone Compatible web template, free Webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--mobile apps-->
-<!--Custom Theme files -->
-<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
-<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
-<!-- //Custom Theme files -->
-<!-- js -->
-<script src="js/jquery-1.11.1.min.js"></script> 
-<!-- //js -->
-<!--web-fonts-->
-<link href='//fonts.googleapis.com/css?family=Stint+Ultra+Condensed' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-<!--//web-fonts-->
-<!--animate-->
-<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
-<script src="js/wow.min.js"></script>
-  <script>
-     new WOW().init();
-  </script>
-<!--//end-animate-->
-<!-- start-smoth-scrolling-->
-<script type="text/javascript">
-    jQuery(document).ready(function($) {
-      $(".scroll").click(function(event){   
-        event.preventDefault();
-    
-    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-      });
-    });
-</script>
-<!--//end-smoth-scrolling-->
-</head>
-<body>
-  <!--banner-->
+<!--banner-->
   <div  id="home" class="banner">
     <div class="banner-info">
       <div class="banner-top">
@@ -60,33 +12,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </ul>
           </div>
           <div class="col-md-6 banner-top-right wow slideInDown animated" data-wow-delay=".5s">
-            <p><span class="glyphicon glyphicon-earphone"></span> +11 999 8888 7777 </p>
+            <p><span class="glyphicon glyphicon-earphone"></span> +7 978 887 34 61 </p>
           </div>
           <div class="clearfix"> </div>
         </div>
       </div>
       <div class="banner-text">
-        <h1 class="wow slideInLeft animated" data-wow-delay=".5s"><a href="index.html">Scrutiny</a></h1>
-        <p class="wow slideInRight animated" data-wow-delay=".5s">Lorem Ipsum was popularised </p>
+        <h1 class="wow slideInLeft animated" data-wow-delay=".5s"><%= t "banner.title" %></h1>
+        <p class="wow slideInRight animated" data-wow-delay=".5s"><%= t "banner.description" %></p>
       </div>
       <!--navigation-->
       <div class="top-nav wow">
         <div class="container">
           <div class="navbar-header logo">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              Menu
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><%= t "navigation.menu" %>
             </button>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <div class="menu">
               <ul class="nav navbar">
-                <li class="menu-item menu-item-current"><a href="#home" class="menu-link scroll">Home</a></li>
-                <li class="menu-item"><a href="#about" class="menu-link scroll">About</a></li>
-                <li class="menu-item"><a href="#services" class="menu-link scroll">Services</a></li>
-                <li class="menu-item"><a href="#work" class="menu-link scroll">Works</a></li>
-                <li class="menu-item"><a href="#gallery" class="menu-link scroll">Gallery</a></li>
-                <li class="menu-item"><a href="#contact" class="menu-link scroll">Contact</a></li>
+                <li class="menu-item menu-item-current"><a href="#home" class="menu-link scroll"><%= t "navigation.home" %></a></li>
+                <li class="menu-item"><a href="#about" class="menu-link scroll"><%= t "navigation.about" %></a></li>
+                <li class="menu-item"><a href="#services" class="menu-link scroll"><%= t "navigation.services" %></a></li>
+                <li class="menu-item"><a href="#work" class="menu-link scroll"><%= t "navigation.works" %></a></li>
+                <li class="menu-item"><a href="#gallery" class="menu-link scroll"><%= t "navigation.gallery" %></a></li>
+                <li class="menu-item"><a href="#contact" class="menu-link scroll"><%= t "navigation.contact" %></a></li>
               </ul>
             </div>
             <div class="clearfix"> </div>
@@ -142,21 +93,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <!--welcome-->
   <div class="welcome" id="about">
     <div class="container">
-      <h2 class="title wow slideInDown animated" data-wow-delay=".5s">Welcome To Study Abroad</h2>
+      <h2 class="title wow slideInDown animated" data-wow-delay=".5s"><%= t "welcome.title" %></h2>
       <div class="col-md-4 welcome-left wow slideInLeft animated" data-wow-delay=".5s">
         <img src="images/img1.jpg" alt=""/>
       </div>
       <div class="col-md-8 welcome-right wow slideInRight animated" data-wow-delay=".5s">
         <h5>01</h5>
-        <h4>About Us</h4>
-        <p>Aenean sed euismod sem ac iaculis metus. Vestibulum velit dolor pulvinar ut tempus sit amet, congue eget velit. Cras vestibulum interdum elit, vel elementum diam interdum id. Nulla pharetra lacus sed ac iaculis metus auctor sollicitudin. Donec molestie augue a eros auctor aliquam. In vitae posuere massa. </p>
+        <h4><%= t "welcome.title01" %></h4>
+        <p><%= t "welcome.description01" %> </p>
       </div>
       <div class="clearfix"> </div>
       <div class="col-md-7 welcome-bottom-left wow slideInLeft animated" data-wow-delay=".5s">
         <img src="images/img2.jpg" alt=""/>
         <h5>02</h5>
-        <h4>Our Mission</h4>
-        <p>Aenean sed euismod sem ac iaculis metus. Vestibulum velit dolor pulvinar ut tempus sit amet, congue eget velit. Cras vestibulum interdum elit, vel elementum diam interdum id. Nulla pharetra lacus sed ac iaculis metus auctor sollicitudin. Donec molestie augue a eros auctor aliquam. In vitae posuere massa. </p>
+        <h4><%= t "welcome.title02" %><</h4>
+        <p><%= t "welcome.description02" %></p>
       </div>
       <div class="col-md-5 welcome-bottom-right wow slideInRight animated" data-wow-delay=".5s">
         <div class="welcome-grid-left">
@@ -164,8 +115,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="welcome-grid-right">
           <h5>03</h5>
-          <h4>What We do</h4>
-          <p>Aenean sed euismod sem ac iaculis metus. Vestibulum velit dolor pulvinar ut tempus sit amet, congue eget velit. Cras vestibulum interdum elit, vel elementum diam interdum id. Nulla pharetra lacus sed ac iaculis metus auctor sollicitudin. Donec molestie augue a eros auctor aliquam. In vitae posuere massa. </p>
+          <h4><%= t "welcome.title03" %><</h4>
+          <p><%= t "welcome.description03" %></p>
         </div>
         <div class="clearfix"> </div>
       </div>
@@ -176,15 +127,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <!--services-->
   <div class="welcome services" id="services">
     <div class="container">
-      <h3 class="title wow fadeInDown animated" data-wow-delay=".5s">Our Services</h3>
+      <h3 class="title wow fadeInDown animated" data-wow-delay=".5s"><%= t "services.title" %></h3>
       <div class="services-info">
         <div class="col-md-4 services-grids wow zoomIn animated" data-wow-delay=".5s">
           <div class="service">
             <div class="icon-holder">
               <span class="glyphicon glyphicon-book"></span>
             </div>
-            <h4 class="heading">Skill Development</h4>
-            <p class="text">Vestibulum velit dolor pulvinar ut tempus sit amet, congue eget velit</p>
+            <h4 class="heading"><%= t "services.title1" %></h4>
+            <p class="text"><%= t "services.description1" %></p>
           </div>
         </div>
         <div class="col-md-4 services-grids wow zoomIn animated" data-wow-delay=".5s">
@@ -192,8 +143,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="icon-holder">
               <span class="glyphicon glyphicon-education"></span>
             </div>
-            <h4 class="heading">Student Guidance</h4>
-            <p class="text">Tibulumves velit dolor pulvinar ut tempus sit amet, congue eget velit</p>
+            <h4 class="heading"><%= t "services.title2" %></h4>
+            <p class="text"><%= t "services.description2" %></p>
           </div>
         </div>
         <div class="col-md-4 services-grids wow zoomIn animated" data-wow-delay=".5s">
@@ -201,8 +152,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="icon-holder">
               <span class="glyphicon glyphicon-thumbs-up"></span>
             </div>
-            <h4 class="heading"> Advising Students</h4>
-            <p class="text">Dolor vestibulum velit pulvinar ut tempus sit amet, congue eget velit</p>
+            <h4 class="heading"><%= t "services.title3" %> </h4>
+            <p class="text"><%= t "services.description3" %></p>
           </div>
         </div>
         <div class="clearfix"> </div>
@@ -215,21 +166,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="container">
       <div class="work-info">
         <div class="col-md-3 work-grids work-grd1 wow slideInLeft animated" data-wow-delay=".5s">
-          <h3 class="title">Work</h3>
-          <p>Aenean sed euismod sem ac iaculis metus congue eget velit, Nulla pharetra lacus sed ac iaculis metus auctor sollicitudin. Donec molestie augue a eros auctor aliquam. In vitae posuere massa. </p>
+          <h3 class="title"><%= t "work.title" %></h3>
+          <p><%= t "work.description" %></p>
           <ul>
-            <li><span class="glyphicon glyphicon-ok-circle"></span> Lorem ipsum dolor sit </li>
-            <li><span class="glyphicon glyphicon-ok-circle"></span> Morbi pretium lacus neque</li>
-            <li><span class="glyphicon glyphicon-ok-circle"></span> Phasellus posuere nisi ve</li>
-            <li><span class="glyphicon glyphicon-ok-circle"></span> Etiam blandit orci blandit</li>
+            <li><span class="glyphicon glyphicon-ok-circle"></span><%= t "work.paragraph1" %></li>
+            <li><span class="glyphicon glyphicon-ok-circle"></span><%= t "work.paragraph2" %></li>
+            <li><span class="glyphicon glyphicon-ok-circle"></span><%= t "work.paragraph3" %></li>
+            <li><span class="glyphicon glyphicon-ok-circle"></span><%= t "work.paragraph4" %></li>
           </ul>
         </div>
         <div class="col-md-3 work-grids wow zoomIn animated" data-wow-delay=".5s">
           <img src="images/img4.jpg" alt=""/>
           <div class="img-caption">
             <div class="img-text">
-              <h4>Lorem ipsum</h4>
-              <p>Etiam pellentesque felis dolor quis efficitur eros </p>
+              <h4><%= t "work.image1"%></h4>
+              <p><%= t "work.description1"%></p>
             </div>
           </div>
         </div>
@@ -237,8 +188,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <img src="images/img5.jpg" alt=""/>
           <div class="img-caption">
             <div class="img-text">
-              <h4>Euismod sem </h4>
-              <p>Vestibulum celit dolor pulvinar ut tempus sit amet </p>
+              <h4><%= t "work.image2"%></h4>
+              <p><%= t "work.description2"%></p>
             </div>
           </div>
         </div>
@@ -246,8 +197,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <img src="images/img6.jpg" alt=""/>
           <div class="img-caption">
             <div class="img-text">
-              <h4>Cras maximus</h4>
-              <p>Suspendi ipsum magna ut luctus eget condimentum </p>
+              <h4><%= t "work.image3"%></h4>
+              <p><%= t "work.description3"%></p>
             </div>
           </div>
         </div>
@@ -259,19 +210,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <!--slid-->
   <div class="slid">
     <div class="container">
-      <h3 class="wow slideInDown animated" data-wow-delay=".5s">Working Hours:<br>
-        Monday – Saturday 8:00 a.m – 9:00 p.m <br>
-        Sunday 10 a.m – 4 p.m <br>
+      <h3 class="wow slideInDown animated" data-wow-delay=".5s"><%= t "slid.title"%><br>
+        <%= t "slid.workdays"%><br>
+        <%= t "slid.weekends"%><br>
         <span class="glyphicon glyphicon-earphone"></span> +11 999 8888 7777 </h3>
-      <p class="wow fadeInUp animated" data-wow-delay=".5s">Pellentesque ultrices erat ut quam mattis, sed tempus lorem lacinia. Etiam ut diam rhoncus, viverra ipsum eu, semper metus. Quisque commodo maximus sagittis.
-       Praesent efficitur quam metus. Duis ac tempor risus. Nulla facilisi. Fusce eget neque bibendum, gravida nibh eget, dignissim erat.</p>
+      <p class="wow fadeInUp animated" data-wow-delay=".5s"><%= t "slid.description"%></p>
     </div>
   </div>
   <!--//slid-->
   <!--gallery-->
   <div id="gallery" class="welcome gallery">
     <div class="container">
-      <h3 class="title">Gallery</h3>
+      <h3 class="title"><%= t "gallery.title"%></h3>
       <div class="gallery-info">
         <div class="col-md-6 gallery-grids glry-grid1">
           <div class="gallery-grids-top">
@@ -356,10 +306,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h3>Our Gallery</h3>
+                    <h3><%= t "gallery.image0"%></h3>
                     <hr>
                     <img src="images/g1.jpg" class="img-responsive img-centered" alt="">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p><%= t "gallery.description0"%></p>
                   </div>
                 </div>
               </div>
@@ -377,10 +327,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h3>Our Gallery</h3>
+                    <h3><%= t "gallery.image1"%></h3>
                     <hr>
                     <img src="images/g2.jpg" class="img-responsive img-centered" alt="">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p><%= t "gallery.description0"%></p>
                   </div>
                 </div>
               </div>
@@ -398,10 +348,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h3>Our Gallery</h3>
+                    <h3><%= t "gallery.image2"%></h3>
                     <hr>
                     <img src="images/g3.jpg" class="img-responsive img-centered" alt="">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p><%= t "gallery.description0"%></p>
                   </div>
                 </div>
               </div>
@@ -419,10 +369,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h3>Our Gallery</h3>
+                    <h3><%= t "gallery.image3"%></h3>
                     <hr>
                     <img src="images/g4.jpg" class="img-responsive img-centered" alt="">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p><%= t "gallery.description0"%></p>
                   </div>
                 </div>
               </div>
@@ -440,10 +390,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h3>Our Gallery</h3>
+                    <h3><%= t "gallery.image4"%></h3>
                     <hr>
                     <img src="images/g5.jpg" class="img-responsive img-centered" alt="">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p><%= t "gallery.description0"%></p>
                   </div>
                 </div>
               </div>
@@ -461,10 +411,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
               <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                   <div class="modal-body">
-                    <h3>Our Gallery</h3>
+                    <h3><%= t "gallery.image5"%></h3>
                     <hr>
                     <img src="images/g6.jpg" class="img-responsive img-centered" alt="">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <p><%= t "gallery.description0"%></p>
                   </div>
                 </div>
               </div>
@@ -479,43 +429,43 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   <!--contact -->
   <div class="welcome contact" id="contact">
     <div class="container">
-      <h3 class="title wow fadeInDown animated" data-wow-delay=".5s">Contact Us</h3>
+      <h3 class="title wow fadeInDown animated" data-wow-delay=".5s"><%= t "contact.title"%></h3>
       <div class="contact-row">
         <div class="col-md-6 contact-left">
           <iframe class="wow slideInLeft animated" data-wow-delay=".5s" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555" allowfullscreen></iframe>
         </div>
         <div class="col-md-6 contact-right wow slideInRight animated" data-wow-delay=".5s">
-          <h4>Address:</h4>
+          <h4><%= t "contact.address1"%></h4>
           <div class="address-left">
-            <p>Lorem ipsum dolor sit amet conse adipiscing elit. Proin in justo tortoroin consectetur lorem id massa luctus</p>
+            <p><%= t "contact.description1"%></p>
           </div>
           <div class="address-right">
-            <p>Call us : +11 222 333 4444</p>
+            <p><%= t "contact.phone"%></p>
             <p>E-mail : <a href="mailto:info@example.com">mail@example.com</a></p>
           </div>
           <div class="clearfix"></div>
           <!--accordion-->
           <div class="info">
-            <h4>Useful Information :</h4>
+            <h4><%= t "contact.useful"%></h4>
             <ul class="faq">
-              <li class="item1 wow fadeInDown animated" data-wow-delay=".5s"><a href="#"><span class="glyphicon glyphicon-chevron-down"></span> Donec ut quam ligula feugiat</a>
+              <li class="item1 wow fadeInDown animated" data-wow-delay=".5s"><a href="#"><span class="glyphicon glyphicon-chevron-down"></span><%= t "contact.hint1"%></a>
                 <ul>
-                  <li class="subitem1"><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</p></li>                    
+                  <li class="subitem1"><p><%= t "contact.description1"%></p></li>                    
                 </ul>
               </li>
-              <li class="item2 wow fadeInDown animated" data-wow-delay=".5s"><a href="#"><span class="glyphicon glyphicon-chevron-down"></span> The standard Lorem Ipsum passage</a>
+              <li class="item2 wow fadeInDown animated" data-wow-delay=".5s"><a href="#"><span class="glyphicon glyphicon-chevron-down"></span> <%= t "contact.hint2"%></a>
                 <ul>
-                  <li class="subitem1"><p> Tincidunt ut laoreet dolore At vero eos et Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p></li>                   
+                  <li class="subitem1"><p><%= t "contact.description2"%></p></li>                   
                 </ul>
               </li>
-              <li class="item3 wow fadeInDown animated" data-wow-delay=".5s"><a href="#"><span class="glyphicon glyphicon-chevron-down"></span> Consectetuer adipiscing elit</a>
+              <li class="item3 wow fadeInDown animated" data-wow-delay=".5s"><a href="#"><span class="glyphicon glyphicon-chevron-down"></span> <%= t "contact.hint3"%></a>
                 <ul>
-                  <li class="subitem1"><p>Dincidunt ut laoreet dolore At vero eos et Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p></li>                    
+                  <li class="subitem1"><p><%= t "contact.description3"%></p></li>                    
                 </ul>
               </li>
-              <li class="item4 wow fadeInDown animated" data-wow-delay=".5s"><a href="#"><span class="glyphicon glyphicon-chevron-down"></span> Sed diam nonummy nibh euismod</a>
+              <li class="item4 wow fadeInDown animated" data-wow-delay=".5s"><a href="#"><span class="glyphicon glyphicon-chevron-down"></span> <%= t "contact.hint4"%></a>
                 <ul>
-                  <li class="subitem1"><p>At vero eos et Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod  </p></li>                   
+                  <li class="subitem1"><p><%= t "contact.description4"%></p></li>                   
                 </ul>
               </li> 
             </ul>
@@ -549,8 +499,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="clearfix"></div>
       </div>
       <div class="contact-form">
-        <h3 class="title wow fadeInDown animated" data-wow-delay=".5s">Get In Touch</h3>
-        <p>Sed ut turpis elit ullamcorper in auctor non, accumsan vel lacus nulla auctor cursus nunc. Maecenas ultricies dolor in urna tempus, id egestas erat finibus  interdum lectus eget scelerisque.</p>
+        <h3 class="title wow fadeInDown animated" data-wow-delay=".5s"><%= t "accordion.title"%></h3>
+        <p><%= t "accordion.description"%></p>
             <%= form_for @contact do |message_form| %>
               <% if @contact.errors.any? %>
                 <div id="error_explanation">
@@ -616,9 +566,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     </div>
   </div>
   <!--//footer-->
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/bootstrap.js"></script>
-</body>
-</html>
+
