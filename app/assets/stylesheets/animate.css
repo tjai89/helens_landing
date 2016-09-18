@@ -1165,9 +1165,9 @@ Copyright (c) 2013 Daniel Eden
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
-	-ms- transform: translateX(0);
-    -o- transform: translateX(0);
-    -moz- transform: translateX(0);
+	  -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    -moz-transform: translateX(0);
     transform: translateX(0);
   }
 }
@@ -1186,8 +1186,8 @@ Copyright (c) 2013 Daniel Eden
     opacity: 1;
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
-	-o- transform: translateX(0);
-	-moz- transform: translateX(0);
+	  -o-transform: translateX(0);
+	  -moz-transform: translateX(0);
     transform: translateX(0);
   }
 }
