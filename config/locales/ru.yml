@@ -1,0 +1,111 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+ru:
+  banner:
+    title: 'Базовый английский'
+    description: 'Private English lessons on Skype'
+  
+  navigation:
+    menu: 'Menu'
+    home: 'Home' 
+    about: 'About'
+    services: 'Services'
+    works: 'Works' 
+    gallery: 'Gallery'
+    contact: 'Contact'
+
+  welcome:
+    title: 'Welcome To Study Abroad'
+    title01: 'About Us'
+    title02: 'Our Mission'
+    title03: 'What We do'
+    description01: '1111111111111111111'
+    description02: '22222222222222222222'
+    description03: '333333333333333333333'
+
+  services:
+    title: 'Our Services'
+    title1: 'Skill Development'
+    title2: 'Student Guidance'
+    title3: 'Advising Students'
+
+  work:  
+    title: 
+    description:
+    paragraph1:
+    paragraph2:
+    paragraph3:
+    paragraph4:
+    image1:
+    image2:
+    image3:
+    description1:
+    description2:
+    description3:
+
+  slid:
+    title: 'Working Hours:'
+    workdays: 'Monday – Saturday 8:00 a.m – 9:00 p.m'
+    weekends: 'Sunday 10 a.m – 4 p.m'
+    description: 
+
+  gallery:
+    title: 'Gallery'
+    image0: 'Our Gallery'
+    image1: 'Our Gallery'
+    image2: 'Our Gallery'
+    image3: 'Our Gallery'
+    image4: 'Our Gallery'
+    image5: 'Our Gallery'
+    description0:
+    description1:
+    description2:
+    description3:
+    description4:
+    description5:  
+
+  contact:
+    title: 'Contact Us'
+    address: 'Address:'
+    phone: 'Call us : +11 222 333 4444'
+    useful: 'Useful Information :'
+    hint1:
+    hint2:
+    hint3:
+    hint4:
+    description:
+    description: 
+    description: 
+    description:  
+
+  accordion:
+    title: 'Get In Touch'  
+
+
+
+    
+
+
+
+
+
+
