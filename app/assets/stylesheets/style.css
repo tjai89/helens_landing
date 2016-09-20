@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 body{
 	margin:0;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Lora', sans-serif;
 	background: #fff;
 }
 body a{
@@ -19,7 +19,7 @@ body a{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;	
-	font-family: 'Stint Ultra Condensed', cursive;
+	font-family: 'Lora', cursive;
 }
 p{
 	margin:0;
@@ -97,7 +97,7 @@ ul.social-icons{
     font-size: 1.5em;
     text-align: right;
     font-weight: 100;
-    font-family: 'Stint Ultra Condensed', cursive;
+    font-family: 'Lora', cursive;
     letter-spacing: 4px;
 }
 .banner-top-right p span.glyphicon{
@@ -111,8 +111,8 @@ ul.social-icons{
 }
 .banner-text h1 {
     color: #fff;
-    font-size: 13em;
-    letter-spacing: 25px;
+    font-size: 8em;
+    letter-spacing: 20px;
     line-height: 1em;
 }
 .banner-text h1 a {
@@ -144,7 +144,7 @@ ul.nav.navbar {
 	min-height: inherit;
 }
 .top-nav ul li {
-    margin: 0 0 0 1em;
+    margin: 0;
     display: inline-block;
 }
 .top-nav ul li:nth-child(1){
@@ -154,9 +154,9 @@ ul.nav.navbar {
 .top-nav ul li a {
     text-decoration: none;
     letter-spacing: 6px;
-    font-size: 1.8em;
+    font-size: 1.4em;
     color: #fff;
-    font-family: 'Stint Ultra Condensed', cursive;
+    font-family: 'Lora', cursive;
     position: relative;
     font-weight: 100;
     padding: .5em 1.5em;
@@ -318,7 +318,7 @@ h3.title,h2.title{
 }
 .welcome h5 {
     font-size: 2em;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-weight: 800;
     margin: 2em 1em 1em;
     position: relative;
@@ -327,7 +327,7 @@ h3.title,h2.title{
 .welcome h5:before {
     content: '';
     border: 5px solid #999;
-    padding: 1em;
+    padding: 1.05em;
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	-moz-transform: rotate(45deg);
@@ -335,8 +335,8 @@ h3.title,h2.title{
 	-ms-transform: rotate(45deg);
     position: absolute;
     text-align: center;
-    left: -21px;
-    top: -18px;
+    left: -15.5px;
+    top: -20px;
 }
 .welcome h4 {
     font-size: 3em;
@@ -400,15 +400,14 @@ h3.title,h2.title{
     text-align: center;
     left: 30%;
 }
-
 .service .heading {
     position: relative;
     top: 21px;
     -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 	-moz-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    left: 9%;
-    font-size: 2em;
+    left: 5%;
+    font-size: 1.3em;
 	color: #fff;
 }
 .service .icon-holder span.glyphicon {
@@ -885,7 +884,7 @@ h3.title,h2.title{
     color: #999;
     font-size: 1em;
     padding: 10px 15px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Lora', sans-serif;
     border: 3px solid #999;
     margin-bottom: 1em;
 }
@@ -900,7 +899,7 @@ h3.title,h2.title{
     transition: .5s all;
     -webkit-transition: .5s all;
     -moz-transition: .5s all;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Lora', sans-serif;
 }
 .footer input[type="submit"]:hover {
     color: #21b2a6;
@@ -962,8 +961,8 @@ h3.title,h2.title{
     left: 31%;
 }
 .service .heading {
-    left: 14%;
-    letter-spacing: 2px;
+    left: 10.5%;
+    letter-spacing: 1.3px;
 }
 .service:hover .icon-holder {
     top: -48px;
@@ -1119,6 +1118,10 @@ h3.title,h2.title{
 .service .icon-holder {
     left: 34%;
 }
+.service .heading {
+    left: 7%;
+    font-size: 1.3em;
+}
 .work ul li {
     font-size: 1em;
 }
@@ -1236,11 +1239,10 @@ h3.title,h2.title{
     top: 20px;
 }
 .service .heading {
-    left: 13%;
+    left: 8%;
     letter-spacing: 1px;
     top: 5px;
-    font-size: 1.6em;
-	margin: 0.6em 0 .1em;
+    font-size: 1.1em;
 }
 .service .text {
     width: 88%;
@@ -1427,7 +1429,7 @@ div#bs-example-navbar-collapse-1 {
 }
 @media(max-width:640px){
 .banner-text h1 {
-    font-size: 7em;
+    font-size: 4em;
     letter-spacing: 8px;
 }
 .banner-text p {
@@ -1628,6 +1630,10 @@ h3.title,h2.title{
 .social-icons li a.dott {
     background-position: 1px -88px;
 }
+.banner-text h1 {
+    font-size: 4em;
+    letter-spacing: 6px;
+}
 .banner-top {
     padding-top: 1.5em;
 }
@@ -1641,11 +1647,18 @@ h3.title,h2.title{
 .banner-top-right p span.glyphicon {
     font-size: 1em;
 }
+.welcome h5::before {
+    left: -9px;
+}
 .welcome-right {
     padding: 0;
 }
 .service {
     width: 72%;
+    margin: 30px auto 170px;
+}
+.service .heading {
+    left: 11%;
 }
 .services-grids {
     width: 81%;
@@ -1653,12 +1666,17 @@ h3.title,h2.title{
 .service .text {
     width: 82%;
 }
+.service p.text {
+    left: -7px;
+}
+.service .icon-holder span.glyphicon {
+    font-size: 2.2em;
+    left: -8px;
+
+}
 .img-caption::before {
     border: 114px solid rgba(0, 0, 0, 0.78);
 	border-bottom: 67px solid transparent;
-}
-.work-grids {
-    width: 62%;
 }
 .banner-text p {
     letter-spacing: 2px;
@@ -1689,7 +1707,7 @@ h3.title,h2.title{
 }
 @media(max-width:375px){
 .banner-text h1 {
-    font-size: 4.5em;
+    font-size: 4em;
     letter-spacing: 3px;
 }
 .banner-text p {
@@ -1700,6 +1718,9 @@ h3.title,h2.title{
 }
 .welcome {
     padding: 2em 0;
+}
+.welcome h5::before {
+    left: -9px;
 }
 h3.title,h2.title{
     font-size: 2.5em;
@@ -1716,11 +1737,18 @@ h3.title,h2.title{
 .welcome-bottom-right {
     padding: 0;
 }
+.service {
+    margin: 30px auto 170px;
+}
 .services-grids {
     width: 88%;
 }
 .service .text {
     width: 81%;
+}
+.service .heading {
+    margin: 1em 0 .1em;
+    left: 20px;
 }
 .img-caption::before {
     border: 102px solid rgba(0, 0, 0, 0.78);
@@ -1763,7 +1791,7 @@ h3.title,h2.title{
     letter-spacing: 1px;
 }
 .banner-text h1 {
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 2px;
 }
 .banner-text p {
