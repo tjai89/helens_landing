@@ -930,11 +930,17 @@ h3.title,h2.title{
 @media(max-width:1366px){
 }
 @media(max-width:1280px){
+ul.nav.navbar {
+    text-align: center;
+    margin: 0;
+    min-height: inherit;
+    font-size: 12px;
+}
 .banner-top {
     padding-top: 3em;
 }
 .banner-text h1 {
-    font-size: 12em;
+    font-size: 5em;
     letter-spacing: 20px;
 }
 .banner-text {
@@ -980,10 +986,10 @@ h3.title,h2.title{
 }
 @media(max-width:1080px){
 .banner-text {
-    padding: 11em 0 14em;
+    padding: 5em 0 14em;
 }
 .banner-text h1 {
-    font-size: 11em;
+    font-size: 5em;
     letter-spacing: 19px;
 }
 .banner-text p {
@@ -1029,10 +1035,10 @@ h3.title,h2.title{
     top: 22px;
 }
 .service .heading {
-    left: 15%;
+    left: 8%;
     letter-spacing: 2px;
     top: 5px;
-    font-size: 1.8em;
+    font-size: 1.3em;
 }
 .service:hover .icon-holder {
     top: -43px;
@@ -1091,7 +1097,7 @@ h3.title,h2.title{
 }
 @media(max-width:1024px){
 .banner-text h1 {
-    font-size: 10em;
+    font-size: 5em;
     letter-spacing: 15px;
 }
 .banner-text p {
@@ -1165,7 +1171,7 @@ h3.title,h2.title{
     float: right;
 }
 .banner-text h1 {
-    font-size: 9em;
+    font-size: 5em;
     letter-spacing: 11px;
 }
 .banner-text p {
@@ -1367,7 +1373,7 @@ h3.title,h2.title{
 }
 @media(max-width:768px){
 .banner-text h1 {
-    font-size: 8em;
+    font-size: 5em;
     letter-spacing: 10px;
 }
 .banner-text p {
@@ -1380,7 +1386,7 @@ h3.title,h2.title{
     margin-bottom: 0.6em;
 }
 .service .heading {
-    left: 17%;
+    left: 8%;
 }
 .welcome.work h4 {
     font-size: 2em;
@@ -1499,7 +1505,7 @@ div#bs-example-navbar-collapse-1 {
 }
 @media(max-width:480px){
 .banner-text h1 {
-    font-size: 5em;
+    font-size: 4em;
     letter-spacing: 6px;
 }
 .banner-text p {
