@@ -1677,7 +1677,7 @@ h3.title,h2.title{
 }
 .service .icon-holder span.glyphicon {
     font-size: 2.2em;
-    left: -8px;
+    left: 8px;
 
 }
 .img-caption::before {
@@ -1713,7 +1713,7 @@ h3.title,h2.title{
 }
 @media(max-width:375px){
 .banner-text h1 {
-    font-size: 4em;
+    font-size: 3em;
     letter-spacing: 3px;
 }
 .banner-text p {
